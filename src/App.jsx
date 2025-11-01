@@ -12,7 +12,7 @@ import AdminPage from "./pages/adminPage";
 function App() {
   return (
     <BrowserRouter>
-      <div className="w-full h-screen text-secondary">
+      <div className="w-full h-screen bg-primary text-secondary">
         <Routes path="/">
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
