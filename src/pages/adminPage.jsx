@@ -14,35 +14,35 @@ export default function AdminPage() {
         <div className="w-full h-[400px] text-white text-2xl flex flex-col">
           <Link
             to="/admin"
-            className="w-full flex items-center h-[50px] gap-[10px]"
+            className="w-full flex items-center h-[50px] gap-2.5"
           >
             <LuClipboardList />
             Orders
           </Link>
           <Link
             to="/admin/products"
-            className="w-full flex items-center h-[50px] gap-[10px]"
+            className="w-full flex items-center h-[50px] gap-2.5"
           >
             <LuBoxes />
             Products
           </Link>
           <Link
             to="/admin/users"
-            className="w-full flex items-center h-[50px] gap-[10px]"
+            className="w-full flex items-center h-[50px] gap-2.5"
           >
             <FaUserGroup />
             Users
           </Link>
           <Link
             to="/admin/reviews"
-            className="w-full flex items-center h-[50px] gap-[10px]"
+            className="w-full flex items-center h-[50px] gap-2.5"
           >
             <MdOutlineRateReview />
             Reviews
           </Link>
         </div>
       </div>
-      <div className="w-[calc(100%-300px)] h-full max-h-full bg-primary border-[10px] rounded-3xl overflow-y-scroll border-accent">
+      <div className="w-[calc(100%-300px)] h-full max-h-full bg-primary border-2.5 rounded-3xl overflow-y-scroll border-accent">
         <Routes path="/">
           <Route path="/" element={<h1>Orders</h1>} />
           <Route path="/products" element={<h1>Products</h1>} />

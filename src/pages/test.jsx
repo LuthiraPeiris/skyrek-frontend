@@ -9,7 +9,7 @@ export default function TestPage() {
         <div className="w-[100px] h-[100px] bg-red-600"></div>
         <div className="w-[100px] h-[100px] bg-yellow-600"></div>
       </div>
-      <div className="w-[600px] h-[600px] bg-pink-300 ml-[30px] p-[20px] text-justify">
+      <div className="w-[600px] h-[600px] bg-pink-300 ml-[30px] p-5 text-justify">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum debitis
         laboriosam asperiores harum deserunt repellat quaerat tenetur aspernatur
         totam. Repellendus earum mollitia maxime. Possimus consectetur voluptas
